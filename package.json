@@ -1,0 +1,35 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@google-cloud/speech": "^6.7.0",
+    "@google-cloud/text-to-speech": "^5.8.0",
+    "assemblyai": "^4.9.0",
+    "axios": "^1.7.9",
+    "bcryptjs": "^2.4.3",
+    "child_process": "^1.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "mic": "^2.1.2",
+    "mongoose": "^8.10.0",
+    "node-record-lpcm16": "^1.0.1",
+    "nodemon": "^3.1.9",
+    "openai": "^4.83.0",
+    "path": "^0.12.7",
+    "play-sound": "^1.1.6",
+    "puppeteer": "^24.2.0",
+    "speaker": "^0.5.5",
+    "util": "^0.12.5",
+    "ws": "^8.18.0"
+  }
+}
